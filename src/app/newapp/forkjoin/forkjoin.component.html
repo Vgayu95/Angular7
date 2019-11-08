@@ -1,0 +1,29 @@
+<div>
+<h1> Please check console for http response. </h1>
+<p>
+  <strong>forkJoin</strong> takes array argument of requests. 
+</p>
+
+<p>
+  In example I tried to call 4 different country api as once and we will get output in one bulk array. That is in proper order which as request array we sent.!
+</p>
+<div class="listName">
+  <li class="pt-3" *ngFor="let item of resultName">
+{{item}}
+  </li>
+</div>
+<div class="currList pt-3">
+<div class="cName" *ngFor="let items of currencyName">
+  {{items}}
+</div>
+</div>
+
+<div class="currTime">
+  <b class="">Current time: {{currentTime | date: 'mediumTime'}}</b>
+</div>
+<agm-map 
+  [latitude]="latitude"
+  [longitude]="longitude" 
+  >
+</agm-map>
+</div>

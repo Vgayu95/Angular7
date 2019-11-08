@@ -1,0 +1,26 @@
+<mat-card class="overall">
+  <mat-card-header>
+  <h3 class="formHead">Registration Form </h3>
+  </mat-card-header>
+  <mat-card-content>
+  <div class="registerForm mt-3">
+    <label class="firstName">First Name:</label>
+    <input class="" type="text" [(ngModel)]="fname"><br/>
+    <label class="secondName">Last Name:</label>
+    <input class="" type="text" [(ngModel)]="lname"><br/>
+    <label class="name">Name:</label>
+    <input class="" type="text" [(ngModel)]="name"><br/>
+    <label class="emailId">Email:</label>
+    <input class="" type="text" [(ngModel)]="emailval"><br/>
+    <label class="passwrd">Password:</label>
+    <input class="" type="password" [(ngModel)]="passwrd"><br/>
+  <div class="button">
+    <button type="button" class="changebtn btn btn-success" (click)="register()">REGISTER</button>
+  </div>
+</div>
+  <div *ngIf="data" class="msg">{{data}}</div><br/>
+  <div class="container signin">
+    <p>Already have an account? <a routerLink="/login">Sign in</a>.</p>
+  </div>
+</mat-card-content>
+</mat-card>

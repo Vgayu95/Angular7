@@ -1,0 +1,134 @@
+<div class="overall">
+  <div class="firstSection">
+    <div class="row p-3">
+      <div class="col-lg-6 txtContent1 carousel slide" id="demo">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="headtxt text-left">API NETWORK</h2>
+            <p class="contxt text-justify">It is a long established fact that a reader will be distracted by the
+              readable content
+              of a page when looking at its layout.It is a long established fact that a reader will be distracted by the
+              readable content of a page when looking at its layout. </p>
+            <button type="button" class="btn btn-default text-left">Learn More</button>
+          </div>
+          <!-- <div class="carousel-item" *ngFor="let element of array">
+            <h2 class="headtxt text-left">{{element.sliderName}}</h2>
+            <p class="contxt text-justify">{{element.sliderContent}}</p>
+            <button type="button" class="btn btn-default text-left">{{element.btnName}}</button>
+          </div> -->
+          <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a> -->
+        </div>
+      </div>
+      <div class="col-lg-6 txtContent2">
+        <img src="/assets/images/images.png" class="w-100">
+      </div>
+    </div>
+  </div>
+  <div class="secSection">
+    <div class="row">
+      <div class="col-lg-3 p-4">
+        <mat-card class="card1 card">
+          <mat-card-header class="cardHead card-head">
+            <span class="txtCon text-justify">
+              Build anything with our API Products
+            </span>
+          </mat-card-header>
+          <mat-card-content>
+          <span class="pro-text">Our API Products let you use approved customer data to create or enhance your digital
+            products.Our API Products let you use approved customer data to create or enhance your digital
+            products.</span>
+          <button type="button" class="btnSuc btn-success">View all products</button>
+        </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="col-lg-3 p-4">
+        <mat-card class="card">
+          <mat-card-header class="card-head">
+            <img src="/assets/images/accounts.png" class="accImg">
+          </mat-card-header>
+          <mat-card-content class="card-body">
+            <h3 class="accHeads">Accounts Insights</h3>
+            <p class="accdetails">
+              AccountInsights lets you see up to 12 months of transaction information from a customer’s account. See
+              what amounts are coming in and out, what currencies are being used, who the customer interacts with, and
+              more.
+            </p>
+            <div class="card-footer">
+              <div class="icon">
+                <i class="faicon fa fa-arrow-right"></i>
+              </div>
+              <span class="pro_view">View Product</span>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="col-lg-3 p-4">
+        <mat-card class="card">
+          <mat-card-header class="card-head">
+            <img src="/assets/images/customer.png" class="accImg">
+          </mat-card-header>
+          <mat-card-content class="card-body">
+            <h3 class="accHeads">Customer Insights</h3>
+            <p class="accdetails">
+              AccountInsights lets you see up to 12 months of transaction information from a customer’s account. See
+              what amounts are coming in and out, what currencies are being used, who the customer interacts with, and
+              more.
+            </p>
+            <div class="card-footer">
+              <div class="icon">
+                <i class="faicon fa fa-arrow-right"></i>
+              </div>
+              <span class="pro_view">View Product</span>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="col-lg-3 p-4">
+        <mat-card class="card">
+          <mat-card-header class="card-head">
+            <img src="/assets/images/certificate.png" class="accImg">
+          </mat-card-header>
+          <mat-card-content class="card-body">
+            <h3 class="accHeads">AgeCerificate</h3>
+            <p class="accdetails">
+              AccountInsights lets you see up to 12 months of transaction information from a customer’s account. See
+              what amounts are coming in and out, what currencies are being used, who the customer interacts with, and
+              more.
+            </p>
+            <div class="card-footer">
+              <div class="icon">
+                <i class="faicon fa fa-arrow-right"></i>
+              </div>
+              <span class="pro_view">View Product</span>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+  <div>
+    <!-- {{graph.data | json}} -->
+    <!-- <div *ngIf="graph && graph.length > 0"> -->
+      <plotly-plot [data]="graph.data" *ngIf="graph.data.length != 0" [layout]="graph.layout"></plotly-plot>
+  <!-- </div> -->
+      <plotly-plot [data]="graph1.data" [layout]="graph1.layout"></plotly-plot>
+      <plotly-plot [data]="graph2.data" [layout]="graph2.layout"></plotly-plot>
+      <plotly-plot [data]="graph3.data" [layout]="graph3.layout"></plotly-plot>
+      <plotly-plot [data]="graph4.data" [layout]="graph4.layout"></plotly-plot>
+      <!-- <p>Trailing 5 Years Performance</p> -->
+      <!-- <div id="tester" style="width:40%;height:250px;"></div> -->
+  </div>
+  <div class="thirdSec">
+<div class="text-center">
+  <span class="start"> Ready To Start? </span><br/>
+  <div class="button">
+  <button type="button" class="btn btn-default text-left" routerLink="/register">Sign Up</button>
+  <button type="button" class="btn btn-default text-left">Contacts</button></div>
+</div>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+
+.header {
+    overflow: hidden;
+    background-color: #051b2d;
+    padding: 14px 10px;
+    margin: -8px;
+  }
+  
+  .header a {
+    float: left;
+    color: #70889c;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 22px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+   color: #ddd;
+  }
+  
+  .header a.active {
+    &:focus{
+        background-color: dodgerblue;
+        color: white;
+    }    
+  }
+  .header a.signin {
+    &:focus{
+        background-color: dodgerblue;
+        color: white;
+    }
+  }
+  .header a.signup {
+    &:focus{
+        background-color: dodgerblue;
+        color: white;
+    }
+  }
+  .header-right {
+    float: right;
+  }

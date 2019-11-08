@@ -1,0 +1,55 @@
+//todos.css
+.todos{
+    text-align: center;
+    margin-top: 4%;
+    background: #970805;
+    color: aliceblue;
+    font-weight: 700;
+    margin: 27%;
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.todoipt{
+    padding-top: 1%;
+}
+.box1 {
+    border: solid 1px #006699;
+    padding: 20px;
+    background: #f3f3f3;
+    border-radius: 5px;
+  }
+
+  .todos input.textfield {
+    margin-left: 87px;
+    margin-right: 13px;
+    font-size: 1.4em;
+    vertical-align: top;
+  }
+
+  .todos input.checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  .todos .checked {
+    text-decoration: line-through;
+  }
+
+  .todos button {
+    margin-top: 4px;
+    font-size: 16px;
+    vertical-align: top;
+    border: solid 1px #999;
+    border-radius: 2px;
+  }
+
+  .todos .delete-icon {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .mtop20{
+    margin-bottom: 20px;
+  }
+  
+  

@@ -1,0 +1,80 @@
+.overall{
+  border: 5px solid#000000;
+    border-radius: 5px;
+    background-color: #051b2d;
+    padding: 20px;
+    margin: 26%;
+    margin-top: 4%;
+    color: #0a0321;
+    font-weight: 700;
+}
+.formHead{
+    text-align:center;
+    font-weight: bold;
+    font-size: 21px;
+    margin: auto;
+    color: aliceblue;
+  }
+  .firstName{
+  padding: 15px;
+  color: aliceblue;
+  }
+  .secondName{
+    padding: 15px;
+    color: aliceblue;
+  }
+  .name{
+    padding: 16px 35px;
+    color: aliceblue;
+  }
+  .emailId{
+    padding: 15px 35px;
+    color: aliceblue;
+  }
+  .passwrd{
+    padding: 15px 20px;
+    color: aliceblue;
+  }
+  .msg{
+    color: aliceblue;
+    text-align:center;
+  }
+  .changebtn{
+    text-align: center;
+    border-radius: 6px;
+    background-color: #051b2d;
+    color: white;
+    width: 100px;
+    margin: auto;
+    padding: 2px;
+    border-color: azure;
+    :focus{
+      box-shadow: 0 0 0 0.2rem #fff !important;
+      background-color: #051b2d !important;
+    }
+    :active{
+      box-shadow: 0 0 0 0.2rem #fff !important;
+      background-color: #051b2d !important;
+    }
+  }
+  .button{
+    margin-left: 40px;
+    margin-top: 5px;
+  }
+.registerForm{
+  text-align: center;
+  padding: 2px;
+}
+  .signin{
+    text-align: center;
+    color: aliceblue;
+  }
+  a{
+    color: aliceblue;
+  }
+  .btn-success:not(:disabled):not(.disabled):active{
+    color: #fff !important;
+    background-color: #051b2d !important;
+    border-color: #fff !important;
+    box-shadow: none !important;
+  }

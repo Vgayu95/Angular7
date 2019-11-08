@@ -1,0 +1,123 @@
+.firstSection{
+    background-color: #051b2d;
+}
+.txtContent1{
+color: #ffffff;
+padding: 100px;
+}
+.txtContent2{
+text-align: center;
+padding: 15px;
+}
+.btn{
+    border-radius: 6px;
+    background-color: #051b2d;
+    color: white;
+    border-color: azure;
+    margin-left: 30px;
+}
+.secSection{
+    background-color: #f3f5f5;
+}
+.btnSuc{
+    overflow: visible;
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin: 30px;
+    padding: .5em 1.5em;
+    color: #2a3351;
+    transition: border-color .2s;
+    background-clip: padding-box;
+    background-color: #f3f5f5;
+    border-color: #80808087;
+}
+.card{
+    background: #fff;
+    color: rgba(0,0,0,.87);
+    border: none;
+}
+.accImg{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 10px;
+}
+.accHeads{
+    font-size: 20px;
+    color: #273843;
+    line-height: 30px;
+}
+.accdetails{
+    font-size: 14px;
+    line-height: 24px;    
+    color: #465f75;
+}
+.faicon{
+    color: #465f75;
+    padding: 4px;
+}
+.icon{
+    background-color: #fff;
+    border: 1px solid grey;
+    height: 29px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-width: 2px;
+    -webkit-border-radius: 50%;
+    width: 25px;
+}
+.pro_view{
+    padding-left: 12px;
+    color: #465f75;
+}
+.card-footer{
+    display: inline-flex;
+    padding: 0;
+    border: none;
+    background-color: #fff;
+}
+.contxt{
+    padding: 30px;
+}
+.headtxt{
+    padding-left: 28px;
+}
+.carousel-control-next, .carousel-control-prev{
+    width:5%;
+    opacity: 3.5;
+}
+.txtCon{
+    font-size: 20px;
+}
+.cardHead{
+    padding-top: 55px;
+    padding-left: 10px;
+}
+.pro-text{
+    padding-left: 12px;
+    margin: 42px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #465f75;
+    margin: 0 auto;
+    display: block;
+    padding-top: 27px;    
+}
+.card1{
+    background: #f3f5f5;
+}
+.thirdSec{
+    background-color: #051b2d;
+    padding: 40px;
+}
+.start{
+    color:#fff;
+}
+.button{
+    padding: 12px 12px 0px 5px;
+}
+.card-footer{
+    cursor: pointer;
+}

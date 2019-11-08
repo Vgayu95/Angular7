@@ -1,0 +1,19 @@
+.listName{
+    height: 100px; /*your fixed height*/
+    -webkit-column-count: 5;
+       -moz-column-count: 5;
+            column-count: 10;
+}
+.currList{
+    column-count: 19;
+}
+li, .cName{
+    display: inline-block;
+}
+.currTime{
+    text-align: center;
+    margin-top: 12px;
+}
+agm-map{
+height:400px;
+}
